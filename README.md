@@ -17,7 +17,9 @@ Documentação de projeto em `docs/` (PROJECT_CONTEXT, ART_DIRECTION, TECHNICAL_
 
 ## Rodar
 - Editor: abrir `project.godot` no Godot 4.7.2 e apertar F5.
-- Teste: `godot --headless --path . -s res://tests/smoke_test.gd`
+- Testes: `godot --headless --path . -s res://tests/smoke_test.gd` e `-s res://tests/test_fase1.gd`
+- Valores do movimento/estamina: `data/player/cacador_stats.tres` (PROVISÓRIOS).
 
 ## Estado
-Fase 0 — projeto criado, aguardando teste manual. Git ainda não inicializado (aguarda autorização).
+Fase 1 — movimento (andar/correr com estamina) implementado, aguardando teste manual e aprovação.
+Fase 0 concluída (repositório: github.com/jv43291-boop/espinhos-e-cinzas, privado).

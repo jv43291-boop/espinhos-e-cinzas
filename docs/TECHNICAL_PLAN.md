@@ -20,11 +20,11 @@
 | Fase | Entrega | Critério de aceite |
 |---|---|---|
 | 0 | Projeto Godot, estrutura de pastas, docs, git local | abre e roda cena vazia |
-| 1 | Movimento do herói (PC + touch básico) | anda, pula/esquiva (se aplicável) com sensação aprovada |
+| 1 | Movimento do herói (PC + touch básico): andar em 8 direções e correr com estamina | anda e corre no PC e no touch, com sensação e ritmo da estamina aprovados |
 | 2 | Combate básico do Caçador (disparo de projétil, mira automática, dano, alvo de treino) | flecha sai, acerta, causa dano, feedback visível |
-| 3 | Vida do herói, morte, respawn, primeiro inimigo | inimigo ataca e pode matar |
+| 3 | Vida do herói, morte, respawn, primeiro inimigo; chance de esquiva (ataque erra, teto 75%, aviso "Errou!") | inimigo ataca, pode errar e pode matar |
 | 4 | Loot: ItemData, drop, pickup, raridades | itens caem e são coletados |
-| 5 | Inventário e equipamento (slots, atributos, comparação) | equipar altera atributos |
+| 5 | Inventário e equipamento (slots, atributos, comparação); equipamentos somam chance de esquiva até o teto | equipar altera atributos |
 | 6 | Conjuntos de equipamento (bônus por peças) | bônus ativa com N peças |
 | 7 | Andar 1 (Floresta): 2–3 salas, progressão entre salas | percorre do início ao fim |
 | 8 | Chefe do andar 1 (bruxa), com 2 fases, que dropa peça de conjunto | derrotar e receber a peça |

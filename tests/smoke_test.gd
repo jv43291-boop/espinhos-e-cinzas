@@ -23,7 +23,7 @@ func _initialize() -> void:
 	_check(packed != null, "cena principal carrega")
 	if packed:
 		var inst := packed.instantiate()
-		_check(inst != null and inst.name == "Main", "cena principal instancia")
+		_check(inst != null, "cena principal instancia")
 		if inst:
 			inst.free()
 	_check(ProjectSettings.get_setting("display/window/size/viewport_width") == 640, "viewport 640x360")

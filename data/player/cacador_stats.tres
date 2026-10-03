@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="PlayerStats" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/player_stats.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+walk_speed = 80.0
+run_speed = 140.0
+stamina_max = 100.0
+stamina_drain = 25.0
+stamina_regen = 20.0
+stamina_regen_delay = 0.8
+stamina_min_to_run = 15.0

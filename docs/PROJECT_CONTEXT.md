@@ -44,7 +44,10 @@
 ## 7. Classe inicial
 - **CONFIRMADO:** a primeira classe jogável é o **Caçador**.
 - **PROPOSTA — papel:** combate à distância (arco ou besta), com foco em manter distância, posicionamento e esquiva.
-- **PROPOSTA — controles touch:** ataque básico com mira automática no inimigo mais próximo (menos botões na tela); botão de habilidade; esquiva.
+- **CONFIRMADO — câmera:** vista de cima (top-down); o herói anda livre em 8 direções e não pula.
+- **CONFIRMADO — movimento:** andar e correr. Correr gasta estamina, que se recupera com o tempo. No touch, a corrida é um botão de segurar.
+- **CONFIRMADO — esquiva:** não é um movimento; é um atributo (chance de o ataque do inimigo errar) que vem de equipamentos, com teto de 75%.
+- **PROPOSTA — controles touch:** joystick virtual à esquerda; ataque básico com mira automática no inimigo mais próximo (menos botões na tela); botão de habilidade; botão de correr.
 - **PROPOSTA — habilidade ativa inicial:** armadilha posicionável (ex.: armadilha de urso) que prende ou fere inimigos.
 - **PROPOSTA — fantasia:** o Caçador do folclore dos contos; identidade, nome e visual originais.
 - **PROPOSTA:** equipamentos do Caçador: arma à distância, capa/armadura, aljava/acessório; conjuntos alteram dano, alcance ou tipo de flecha.
